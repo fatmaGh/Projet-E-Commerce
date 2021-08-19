@@ -1,0 +1,204 @@
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    
+}
+
+/* 
+.sidebar {
+    position: fixed;
+    z-index: 0;
+    width: 15% !important;
+    font-size: 0.65em;
+    background-color: #4C84FF;
+    background: #ebebeb; 
+    padding: 10px 30px !important;
+    box-shadow: 3px 0px 15px rgba(63, 63, 63, 0.05);
+    height: 100%; }
+    .sidebar h1, .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6 {
+        color: rgb(248, 248, 248);
+        margin-top: 20px;
+        margin-bottom: 0; }
+        .sidebar ul {
+            margin-top: 10px;
+            margin-left: -70px;
+            margin-right: -10px; }
+            .sidebar ul li {
+                list-style: none;
+                margin: 0;
+                padding: 10px; 
+                font-size: larger;
+      font-weight: bold;
+    }
+    .sidebar ul li a {
+        display: block;
+        padding: 10px 20px;
+        color: rgb(240, 241, 242); 
+    }
+    .sidebar ul li a .fa {
+        margin-right: 5px; }
+        
+        .sidebar ul li a:hover {
+            color: #ffffff;
+            background-color: #eecd3b; }
+            */
+            
+.sidebar {
+    position: fixed;
+    width: 16%;
+    height: 100vh;
+    background: #312450;
+    font-size: 0.65em;
+}
+
+.navbar_Admin{
+    margin-top: 20%;
+    display: flex;
+    margin-left: 4%;
+}
+
+.role{
+    color: rgba(255, 255, 255, 0.35);
+    font-size: 1.2em !important;
+    text-align: center;
+}
+
+.admin{
+    color: white !important;
+    line-height: 2em;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    /* letter-spacing: 0.4em; */
+    color: rgba(255, 255, 255, 0.35);
+    display: block;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.nav {
+    position: relative;
+    margin: 0 5%;
+    text-align: center;
+    top: 35%;
+    transform: translateY(-50%);
+    font-weight: bold;
+}
+.nav ul {
+    list-style: none;
+}
+.nav ul li {
+    position: relative;
+    margin: 3.2em 0;
+}
+.nav ul li a {
+    line-height: 5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.4em;
+    color: rgba(255, 255, 255, 0.35);
+    display: block;
+    transition: all ease-out 300ms;
+}
+.nav ul li.active a {
+    color: white;
+}
+.nav ul li:not(.active)::after {
+    opacity: 0.2;
+}
+.nav ul li:not(.active):hover a {
+    color: rgba(255, 255, 255, 0.75);
+}
+.nav ul li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.2em;
+    background: black;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, #5e42a6, #b74e91);
+}
+
+.card_title{
+    line-height: 0.05em;
+    /* color: rgba(255, 255, 255, 0.35); */
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: #312450;
+}
+
+.account{
+
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: space-between;
+    margin-left: 0%;
+   
+}
+
+.content{
+    /* margin-top: 100px; */
+    margin-left: 200px;
+    width: 85%;
+    display: flex;
+    /* justify-content: flex-start; */
+    /* padding: 35px 35px 35px 35px; */
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+}
+
+.header_container{
+    /* margin-left: 350px; */
+    width:100%;
+    height: 100px;
+    /* box-shadow: 3px 0px 15px rgba(80, 143, 184, 0.801); */
+    /* flex-basis: 30%; */
+    background: #312450;
+    /* background-color: #4C84FF; */
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2% 2%;
+}
+
+.title{
+    /* color: white;
+    text-align: center;
+    padding-top: 2%; 
+    */
+    
+    line-height: 5em;
+    margin-top: -2%; 
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.4em;
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.users{
+    display:flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: center;
+    margin-left: 270px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.profile_navbar{
+    width: 1500px;
+    
+}
+
